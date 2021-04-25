@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Model {
 
-    private static Model instance;
+    static Model instance;
 
     private ArrayList<String> saidPhrases = new ArrayList<>();
 
